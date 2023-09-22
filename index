@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Austin Ashburn's Resume</title>
+    </head>
+    <style>
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ddd;
+        }
+        
+        table {
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        dt {
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 10px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+
+        .profilepic {
+            border-radius: 100px;
+        }
+    </style>
+    <body>
+        <header class="header"><h1>Austin Ashburn's Resume</h1></header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Exp">Experience</a></li>
+                <li><a href="#Edu">Education</a></li>
+                <li><a href="#Int">Interests</a></li>
+                <li><a href="#Ski">Skills</a></li>
+                <li><a href="#Con">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <p>Welcome to my portfolio!</p>
+        </article>
+        <hr>
+        <p>Check out some of my projects!</p>
+        <img class="profilepic" src="https://media.licdn.com/dms/image/D5603AQH-B0cUH3w55g/profile-displayphoto-shrink_200_200/0/1666722035414?e=1700697600&v=beta&t=ERR2lJbrEcBR8LDDQgeldbgtcyqivUbwXLX28gSeQ4Y" alt="LinkedIn Profile Pic of Austin Ashburn">
+        <section id="Exp">
+            <h2>Experience</h2>
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color: #ddd;">
+                </colgroup>
+                <tr><th>Company</th>
+                    <th>Details</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <td>Champaign Gymnastics Academy</td>
+                    <td>IT Troubleshooting/ Coach</td>
+                    <td>2022 - Current</td>
+                </tr>
+                <tr>
+                    <td>Victory Gymnastics</td>
+                    <td>IT Troubleshooting/ Coach & Director</td>
+                    <td>2015 - 2022</td>
+                </tr>
+                <tr>
+                    <td>United States Army</td>
+                    <td>Parachute Rigger</td>
+                    <td>2014 - 2022</td>
+                </tr>
+            </table>
+        </section>
+        <section id="Edu">
+            <h2>Education</h2>
+            <dl>
+                <dt>Full Sail University</dt>
+                <dd>Bachelor's of Science</dd>
+                <dt>Degree</dt>
+                <dd>Cybersecurity</dd>
+            </dl>
+        </section>
+        <section id="Int">
+            <h2>Interests</h2>
+            <ul>
+                <li>Parkour</li>
+                <li>Reading</li>
+                <li>Web Dev/ Coding</li>
+            </ul>
+        </section>
+        <section id="Ski">
+            <h2>Skills</h2>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                    <ul>
+                        <li>DOM</li>
+                        <li>Node</li>
+                    </ul>
+            </ol>
+        </section>
+        <section id="Con">
+            <h2>Contact Me</h2>
+            <p>
+                Contact me by <a href="mailto:austinashburn@protonmail.com"> Email.</a>
+            </p>
+        </section>
+        <footer class="footer">Copyright (c) 2023 Austin Ashburn's content please contact me to find out more.</footer>
+    </body>
+</html>
